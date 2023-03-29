@@ -15,6 +15,7 @@ enableTxtLogging=0
 traceGroupsEnable=0
 enable3ADebugData=FALSE
 enableTuningMetadata=FALSE
+offlineLogNumber=20
 
 raiserecoverysigabrt=FALSE
 pdafHWEnable=TRUE
@@ -76,3 +77,6 @@ extendedMaxZoomRatio=10.0
 
 #increase the padding time from 50ms to 100ms reported by pipeline while do fulsh process
 sessionResponseTimePadding=100
+
+#Max Flush timeout setting
+sessionMaxFlushWaitTime=2000

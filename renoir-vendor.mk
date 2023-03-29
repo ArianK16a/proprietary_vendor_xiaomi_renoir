@@ -150,6 +150,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/renoir/proprietary/vendor/etc/sensors/config/sns_rotv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_rotv.json \
     vendor/xiaomi/renoir/proprietary/vendor/etc/sensors/config/sns_sar_algo.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_sar_algo.json \
     vendor/xiaomi/renoir/proprietary/vendor/etc/sensors/config/sns_sar_algo_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_sar_algo_1.json \
+    vendor/xiaomi/renoir/proprietary/vendor/etc/sensors/config/sns_screen_down.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_screen_down.json \
     vendor/xiaomi/renoir/proprietary/vendor/etc/sensors/config/sns_smd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_smd.json \
     vendor/xiaomi/renoir/proprietary/vendor/etc/sensors/config/sns_tilt.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt.json \
     vendor/xiaomi/renoir/proprietary/vendor/etc/sensors/config/sns_tilt_sw_disabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_sw_disabled.json \
@@ -316,6 +317,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/renoir/proprietary/vendor/lib/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadm.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_log_utils.so \
+    vendor/xiaomi/renoir/proprietary/vendor/lib/libaudiocloudctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocloudctrl.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioparsers.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/libaudioroute_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioroute_ext.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbatterylistener.so \
@@ -328,6 +330,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/renoir/proprietary/vendor/lib/libsndmonitor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsndmonitor.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/libssrec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssrec.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/libvideoNS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoNS.so \
+    vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/bm2n06.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm2n06.bin \
+    vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/bm2n08.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm2n08.bin \
+    vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/bm2n13.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm2n13.bin \
+    vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/bm2n14.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm2n14.bin \
+    vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/bm2n15.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm2n15.bin \
     vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/libMIAIHDR_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libMIAIHDR_skel.so \
@@ -341,6 +348,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/libbitml_nsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libbitml_nsp_skel.so \
+    vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/libbitml_nsp_v2_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libbitml_nsp_v2_skel.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/libcamera_nn_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libcamera_nn_skel.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/libcvpdsp_2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libcvpdsp_2_1.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libdspCV_skel.so \
@@ -348,6 +356,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/libfastcvdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvdsp_skel.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/libhap_blink_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libhap_blink_skel.so \
+    vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/libhdr_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libhdr_skel.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/libmctfengine_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libmctfengine_skel.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/libmialgo_basic_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libmialgo_basic_cdsp_skel.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/libmialgo_mfnr_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libmialgo_mfnr_cdsp_skel.so \
